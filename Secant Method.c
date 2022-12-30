@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #define e 0.001
-#define f(x) cos(x) - x*exp(x)
+#define f(x) x*x*x*x*x*x - x - 1
 int main()
 {
     float x0,x1,x2,f0,f1,f2;
