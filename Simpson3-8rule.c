@@ -22,7 +22,7 @@ int main(){
         else{
             q = q + 4*f(k);
         }
-        m = (h/3)*(l+p+q);
+        m = (3*h/8)*(l+p+q);
 
     }
     printf("\n Required value of integration is %f\n",m);
