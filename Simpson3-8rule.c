@@ -25,6 +25,6 @@ int main(){
         m = (3*h/8)*(l+p+q);
 
     }
-    printf("\n Required value of integration is %.3f\n",m);
+    printf("\n Required value of integration is %f\n",m);
     return 0;
 }
