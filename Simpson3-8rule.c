@@ -16,11 +16,11 @@ int main(){
     for(i = 1; i<=n-1; i++)
     {
         k = a + (i*h);
-        if(i%2 == 0){
+        if(i%3 == 0){
             p = p+2*f(k);
         }
         else{
-            q = q + 4*f(k);
+            q = q + 3*f(k);
         }
         m = (3*h/8)*(l+p+q);
 
